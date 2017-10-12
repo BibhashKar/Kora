@@ -1,0 +1,20 @@
+group 'org.ashmit.kora'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+jar {
+    baseName = 'kora'
+    version = '0.1.0'
+}
+
+repositories {
+    mavenCentral()
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+    compile "com.itextpdf:itextpdf:5.0.6"
+}
